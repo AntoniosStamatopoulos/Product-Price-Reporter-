@@ -1,0 +1,308 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title></title></head><body><h1>Global Commodity Prices Dataset (1960-2023)</h1>
+<h2>Dataset Overview</h2>
+<p>Annual commodity price data spanning 64 years with 31 commodities, market headlines, and top commodity rankings.</p>
+<h2>Data Structure</h2>
+<ul>
+<li><strong>Format</strong>: CSV file</li>
+<li><strong>Rows</strong>: 64 (years 1960-2023)</li>
+<li><strong>Columns</strong>: 34 total</li>
+</ul>
+<h2>Data Dictionary</h2>
+<h3>Core Fields</h3>
+<table>
+<thead>
+<tr>
+<th>Column</th>
+<th>Data Type</th>
+<th>Unit</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>year</td>
+<td>Integer</td>
+<td>-</td>
+<td>Year (1960-2023)</td>
+</tr>
+</tbody>
+</table>
+<h3>Energy Commodities</h3>
+<table>
+<thead>
+<tr>
+<th>Column</th>
+<th>Unit</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Crude oil, average</td>
+<td>USD/barrel</td>
+<td>Annual average crude oil price</td>
+</tr>
+<tr>
+<td>Natural gas avg</td>
+<td>USD/mmBtu</td>
+<td>Average natural gas price</td>
+</tr>
+</tbody>
+</table>
+<h3>Agricultural Products</h3>
+<table>
+<thead>
+<tr>
+<th>Column</th>
+<th>Unit</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cocoa</td>
+<td>USD/kg</td>
+<td>Cocoa beans price</td>
+</tr>
+<tr>
+<td>Coffee, Arabica</td>
+<td>USD/kg</td>
+<td>Arabica coffee beans</td>
+</tr>
+<tr>
+<td>Tea, avg 3 auctions</td>
+<td>USD/kg</td>
+<td>Tea average from 3 major auctions</td>
+</tr>
+<tr>
+<td>Coconut oil</td>
+<td>USD/mt</td>
+<td>Coconut oil price per metric ton</td>
+</tr>
+<tr>
+<td>Groundnut oil</td>
+<td>USD/mt</td>
+<td>Peanut oil price</td>
+</tr>
+<tr>
+<td>Palm oil</td>
+<td>USD/mt</td>
+<td>Palm oil price</td>
+</tr>
+<tr>
+<td>Soybeans</td>
+<td>USD/mt</td>
+<td>Soybean commodity price</td>
+</tr>
+<tr>
+<td>Soybean oil</td>
+<td>USD/mt</td>
+<td>Processed soybean oil</td>
+</tr>
+</tbody>
+</table>
+<h3>Food Staples</h3>
+<table>
+<thead>
+<tr>
+<th>Column</th>
+<th>Unit</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Rice, Thai 5%</td>
+<td>USD/mt</td>
+<td>Thai rice, 5% broken</td>
+</tr>
+<tr>
+<td>Wheat, US HRW</td>
+<td>USD/mt</td>
+<td>US Hard Red Winter wheat</td>
+</tr>
+<tr>
+<td>Banana, US</td>
+<td>USD/kg</td>
+<td>US banana import price</td>
+</tr>
+<tr>
+<td>Orange</td>
+<td>USD/kg</td>
+<td>Orange commodity price</td>
+</tr>
+</tbody>
+</table>
+<h3>Livestock &amp; Protein</h3>
+<table>
+<thead>
+<tr>
+<th>Column</th>
+<th>Unit</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Beef</td>
+<td>USD/kg</td>
+<td>Beef commodity price</td>
+</tr>
+<tr>
+<td>Chicken</td>
+<td>USD/kg</td>
+<td>Chicken commodity price</td>
+</tr>
+</tbody>
+</table>
+<h3>Industrial Agricultural</h3>
+<table>
+<thead>
+<tr>
+<th>Column</th>
+<th>Unit</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Sugar, world</td>
+<td>USD/kg</td>
+<td>World sugar price</td>
+</tr>
+<tr>
+<td>Cotton, A Index</td>
+<td>USD/kg</td>
+<td>Cotton A Index price</td>
+</tr>
+<tr>
+<td>Rubber, RSS3</td>
+<td>USD/kg</td>
+<td>Ribbed Smoked Sheet 3 rubber</td>
+</tr>
+</tbody>
+</table>
+<h3>Fertilizers</h3>
+<table>
+<thead>
+<tr>
+<th>Column</th>
+<th>Unit</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Phosphate rock</td>
+<td>USD/mt</td>
+<td>Phosphate rock price</td>
+</tr>
+<tr>
+<td>Potassium chloride</td>
+<td>USD/mt</td>
+<td>Potash fertilizer price</td>
+</tr>
+</tbody>
+</table>
+<h3>Metals &amp; Minerals</h3>
+<table>
+<thead>
+<tr>
+<th>Column</th>
+<th>Unit</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Aluminum</td>
+<td>USD/mt</td>
+<td>Aluminum commodity price</td>
+</tr>
+<tr>
+<td>Iron ore, cfr spot</td>
+<td>USD/dmt</td>
+<td>Iron ore, cost &amp; freight spot price</td>
+</tr>
+<tr>
+<td>Copper</td>
+<td>USD/mt</td>
+<td>Copper commodity price</td>
+</tr>
+<tr>
+<td>Lead</td>
+<td>USD/mt</td>
+<td>Lead metal price</td>
+</tr>
+<tr>
+<td>Tin</td>
+<td>USD/mt</td>
+<td>Tin metal price</td>
+</tr>
+<tr>
+<td>Nickel</td>
+<td>USD/mt</td>
+<td>Nickel commodity price</td>
+</tr>
+<tr>
+<td>Zinc</td>
+<td>USD/mt</td>
+<td>Zinc metal price</td>
+</tr>
+</tbody>
+</table>
+<h3>Precious Metals</h3>
+<table>
+<thead>
+<tr>
+<th>Column</th>
+<th>Unit</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Gold</td>
+<td>USD/troy oz</td>
+<td>Gold spot price</td>
+</tr>
+<tr>
+<td>Platinum</td>
+<td>USD/troy oz</td>
+<td>Platinum spot price</td>
+</tr>
+<tr>
+<td>Silver</td>
+<td>USD/troy oz</td>
+<td>Silver spot price</td>
+</tr>
+</tbody>
+</table>
+<h3>Contextual Data</h3>
+<table>
+<thead>
+<tr>
+<th>Column</th>
+<th>Data Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Commodity News Headline</td>
+<td>List</td>
+<td>Top 10 commodities for the year</td>
+</tr>
+<tr>
+<td>[Last Column]</td>
+<td>String</td>
+<td>Major commodity market events/headlines</td>
+</tr>
+</tbody>
+</table>
+<h2>Usage Instructions</h2>
+<h3>Data Loading</h3>
+<pre><code class="language-python">import pandas as pd
+df = pd.read_csv('commodity_prices_1960_2023.csv')
+</code></pre>
+</body></html>
